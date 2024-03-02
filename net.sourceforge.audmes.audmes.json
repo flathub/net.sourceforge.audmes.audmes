@@ -1,7 +1,7 @@
 {
     "app-id": "net.sourceforge.audmes.audmes",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "AudMeS",
     "rename-icon": "audmes",
@@ -54,7 +54,7 @@
                     {
                     "type": "git",
                     "url": "https://git.code.sf.net/p/audmes/git",
-                    "commit": "9cfe62095636c2086f365c564370fcdaa72cbdab"
+                    "commit": "7d14b437c93f3c9bc007439c5cc513dfc96065ef"
                 },
                 {
                     "type": "git",
