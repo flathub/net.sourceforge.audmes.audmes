@@ -8,7 +8,7 @@
     "rename-desktop-file": "audmes.desktop",
     "finish-args": [
         "--share=ipc",
-        "--filesystem=home",
+        "--filesystem=xdg-documents",
         "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio"
@@ -29,8 +29,9 @@
               "--enable-unicode",
               "--enable-display",
               "--enable-propgrid",
-              "--disable-webkit",
               "--disable-webview",
+              "--disable-richtext",
+              "--disable-sdltest",
               "--disable-webviewwebkit",
               "--with-expat=builtin",
               "--with-libiconv=/usr"
@@ -41,8 +42,8 @@
           "sources": [ 
             {  
                 "type": "archive", 
-                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5.1/wxWidgets-3.0.5.1.tar.bz2",
-                "sha256":"440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807"
+                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.5/wxWidgets-3.2.5.tar.bz2",
+                "sha256":"0ad86a3ad3e2e519b6a705248fc9226e3a09bbf069c6c692a02acf7c2d1c6b51"
             }
           ]
         },
@@ -54,7 +55,7 @@
                     {
                     "type": "git",
                     "url": "https://git.code.sf.net/p/audmes/git",
-                    "commit": "7d14b437c93f3c9bc007439c5cc513dfc96065ef"
+                    "commit": "02f7ae00bcda83b2326c6c83affc6fb533828274"
                 },
                 {
                     "type": "git",
