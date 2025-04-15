@@ -42,8 +42,8 @@
           "sources": [ 
             {  
                 "type": "archive", 
-                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.5/wxWidgets-3.2.5.tar.bz2",
-                "sha256":"0ad86a3ad3e2e519b6a705248fc9226e3a09bbf069c6c692a02acf7c2d1c6b51"
+                "url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.7/wxWidgets-3.2.7.tar.bz2",
+                "sha256":"69a1722f874d91cd1c9e742b72df49e0fab02890782cf794791c3104cee868c6"
             }
           ]
         },
@@ -55,13 +55,13 @@
                     {
                     "type": "git",
                     "url": "https://git.code.sf.net/p/audmes/git",
-                    "commit": "02f7ae00bcda83b2326c6c83affc6fb533828274"
+                    "commit": "e8a71d3a229e6ea326ca8640579ffc7228580f1f"
                 },
                 {
                     "type": "git",
                     "dest": "libfccp",
                     "url": "https://github.com/ben-strasser/fast-cpp-csv-parser",
-                    "commit": "4ade42d5f8c454c6c57b3dce9c51c6dd02182a66"
+                    "commit": "574a9fe4d323ba63416877a4a5fe59088d37aa34"
                 }
             ]
         }
